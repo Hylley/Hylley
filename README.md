@@ -1,5 +1,5 @@
 # Hylley
  
-<img src="https://githubwordle.hylley.repl.co/image.png"/>
+<img src="https://githubwordle.hylley.repl.co/?letter="/>
 
-![AAAAAAAAAA](https://githubwordle.hylley.repl.co/image.png "Title")
+![AAAAAAAAAA](https://githubwordle.hylley.repl.co/?letter= "Title")
