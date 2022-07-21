@@ -1,3 +1,3 @@
 # Hylley
  
-<img src="https://githubwordle.hylley.repl.co/?letter="/>
+<img src="https://githubwordle.hylley.repl.co/image.png"/>
