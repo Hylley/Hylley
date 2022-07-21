@@ -1,6 +1,6 @@
 # Hylley
 
-<div style="clear:none; float: left;">
+<div style="display: flex;">
  <div>
   <img style = "height: 500px;" src="https://githubwordle.hylley.repl.co/image"/>
  </div>
