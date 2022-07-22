@@ -1,7 +1,90 @@
-# Hylley
+# Hey! How're u?
+
+
+
+<h2 align="center">‹😎› About me thing:</h2>
+<div align="left">
+
+- 👌 I just try to make my daily life simpler and at the same time learn new technologies;
+
+- 🏫 I'm Brazilian, and currently finishing high school;
+
+- 🆎 I spent two whole days making that wordle bot thing downthere please try it;
+
+- 🥰😘I💕freaking😘😍>>>_**HATE**_<<<😘💖raw😘HTML💖💕💕😍😍😍😘😘;
+
+- I don't know what else to put here;
+
+- the voices are getting louder😀.
+<details>
+<summary>‹🎯› In the future I pretend...</summary><br/>
+
+- 👩‍💻 Be a computer scientist;
+
+- 👨‍✈️ Do a religious mission;
+
+- 👨‍🎓 Study abroad.
+</details>
+</div>
+</details>
+
+
+
+<div>
+<h2 align="center">‹🔧› Languages I like:</h2>
+<br/>
+<div align="center">
+	<h3 align="right">Front-end developers trying to center a freaking div:</h3>
+	<img width="50%" src="https://c.tenor.com/IZarhuR20SwAAAAM/typing.gif" align="right"/>
+</div>
+<p align="center">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/><br/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white"/><br/>
+I actually hate HTML tho...
+</p>
+
+<br/>			<!-- DO NOT JUDGE ME, THIS WAS THE ONLY WAY I FOUND TO NOT BREAK EVERYTHING -->
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<div>
+<h2 align="center">‹🎨› Tools I like:</h2>
+<br/>
+<div align="center">
+	<img width="50%" src="https://c.tenor.com/CrWHpzxIZYEAAAAC/cat-typing-gif.gif" align="right"/>
+</div>
+<p align="center">
+<img src="https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=white"/>
+<img src="https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white"/><br/>
+<img src="https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white"/>
+<img src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white"/><br/>
+</p>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<h2 align="center">‹🎮› Try pressing the buttons and come back dow:</h2>
 
 <div id="SCREEN" style="float: left;" align="center">
-    <img style = "height: 500px;" src="https://githubwordle.hylley.repl.co/image" alt="Try reloading the page."/>
+    <img style = "height: 500px;" src="https://githubwordle.hylley.repl.co/image" alt="Sorry, reload the page or something."/>
 </div>
 
 <div id="KEYBOARD" align="center">
@@ -41,3 +124,11 @@
 	<img style="height: 40px;" src="https://github.com/Hylley/Hylley/blob/main/src/keyboard/half_empty.png?raw=true"/>
 	<img style="height: 40px;" src="https://github.com/Hylley/Hylley/blob/main/src/keyboard/half_empty.png?raw=true"/>
 </div>
+
+<hr/>
+
+<p align="center">
+<a href="https://twitter.com/Hyllley" target="_blank">
+<img src="https://img.shields.io/badge/@Hyllley%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Hylley%232485%20-%237289DA.svg?&style=for-the-badge&logo=discord&logoColor=white"/>
+</p>
