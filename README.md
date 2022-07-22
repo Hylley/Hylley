@@ -6,6 +6,6 @@
  </div>
 
  <div style="float: right">
-  <a href="sou lindo">AA</a>
+  <a href="https://githubwordle.hylley.repl.co/?letter=a">A</a>
   </div>
 </div>
