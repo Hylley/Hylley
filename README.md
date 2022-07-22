@@ -1,7 +1,7 @@
 # Hylley
 
 <div id="SCREEN" style="float: left;" align="center">
-    <img style = "height: 500px;" src="https://githubwordle.hylley.repl.co/image"/>
+    <img style = "height: 500px;" src="https://githubwordle.hylley.repl.co/image" alt="Try reloading the page."/>
 </div>
 
 <div id="KEYBOARD" align="center">
