@@ -1,10 +1,22 @@
 from flask import Flask, request, redirect, url_for, make_response, send_file, send_from_directory
 from waitress import serve
+from time import sleep
 from io import BytesIO
 import wordle
+import os
 
 
 app = Flask(__name__)
+app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
+
+
+@app.after_request
+def add_header(response):
+		response.cache_control.no_store = True
+		response.cache_control.max_age = 0
+		response.cache_control.no_cache = True
+		print('v')
+		return response
 
 
 @app.route('/', methods=['GET'])
@@ -46,10 +58,12 @@ def index():
 	response = wordle.game(letter, userId)
 
 	#img_io = BytesIO()
-	response.save(f'static/image.png', 'PNG', quality=96)
+	#response.save(fim_io, 'PNG', quality=90)
 	#img_io.seek(0)
 
 	#return send_file(img_io, mimetype='image/png')
+
+	response.save(f'static/image.png', 'PNG', quality=20)
 	return redirect('https://github.com/Hylley')
 
 
@@ -61,7 +75,7 @@ def backspace():
 		return ERROR_MESSAGE
 
 	if wordle.backspace(userId):
-		return redirect('https://github.com/Hylley')
+		return redirect('/?letter=')
 
 
 @app.route('/image')

@@ -28,7 +28,7 @@ def registerSession():
 	con = sqlite3.connect('database.db')
 	cur = con.cursor()
 
-	cur.execute('INSERT INTO users VALUES(?, ?, ?, ?)', [str(key), randomWord(), '', ''])
+	cur.execute('INSERT INTO users VALUES(?, ?, ?, ?, 0)', [str(key), randomWord(), '', ''])
 	con.commit()
 
 	cur.close()
