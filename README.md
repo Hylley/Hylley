@@ -1,14 +1,8 @@
 # Hylley
 
-<!-- GITHUB WORDLE -->
-
-	<!-- VIEWPORT -->
-
 <div style="float: left">
     <img style = "height: 500px;" src="https://githubwordle.hylley.repl.co/image"/>
 </div>
-
-	<!-- KEYBOARD -->
 
 <a href="https://githubwordle.hylley.repl.co/?letter=q"><img style="height: 40px;" src="https://github.com/Hylley/Hylley/blob/main/src/keyboard/q.png?raw=true"/></a>
 <a href="https://githubwordle.hylley.repl.co/?letter=w"><img style="height: 40px;" src="https://github.com/Hylley/Hylley/blob/main/src/keyboard/w.png?raw=true"/></a>
