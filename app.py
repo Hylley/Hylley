@@ -1,4 +1,5 @@
-from flask import Flask, request, redirect, url_for, make_response, send_file
+from flask import Flask, request, redirect, url_for, make_response, send_file, send_from_directory
+from waitress import serve
 from io import BytesIO
 import wordle
 
@@ -23,16 +24,19 @@ def index():
 
 	letter = request.args.get('letter')
 
+	if letter is None:
+		return 'Good morning, sir!'
+
 	if letter != '' and not letter.isalpha() or len(letter) > 1:
 		return ERROR_MESSAGE
 
 	# Authentication
 	if not request.cookies.get('userID'):
-		userKey = registerSession()
+		userKey = wordle.registerSession()
 
 		resp = make_response(redirect(f'/?userID={userKey}&letter={letter}'))
-		resp.set_cookie('userID', str(userKey))
-		resp.set_cookie('letter', str(letter))
+		resp.set_cookie('userID', str(userKey), secure=True, samesite=None)
+		resp.set_cookie('letter', str(letter), secure=True, samesite=None)
 
 		return resp
 
@@ -41,10 +45,12 @@ def index():
 	# Gaming!
 	response = wordle.game(letter, userId)
 
-	img_io = BytesIO()
-	response.save(img_io, 'PNG', quality=96)
-	img_io.seek(0)
-	return send_file(img_io, mimetype='image/png')
+	#img_io = BytesIO()
+	response.save(f'static/image.png', 'PNG', quality=96)
+	#img_io.seek(0)
+
+	#return send_file(img_io, mimetype='image/png')
+	return redirect('https://github.com/Hylley')
 
 
 @app.route('/backspace')
@@ -55,4 +61,12 @@ def backspace():
 		return ERROR_MESSAGE
 
 	if wordle.backspace(userId):
-		return redirect('/?letter=')
+		return redirect('https://github.com/Hylley')
+
+
+@app.route('/image')
+def image():
+	return send_from_directory('static', f'image.png')
+
+
+serve(app, host="0.0.0.0", port=81)
